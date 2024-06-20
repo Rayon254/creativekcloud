@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        .domainname.mb-0 {
+            font-size: 30px;
+            color: #FE5100;
+            font-weight: bolder;
+        }
+  
+        body {
+            position: relative;
+            font-size: 18px;
+            padding: 10px;
+            background-image: url('creativekcloud.jpg');
+            background-repeat: no-repeat;
+            background-size: cover; /* Ensure the image covers the entire page */
+            background-position: top; /* Push the background image to the top */
+            background-attachment: fixed; /* Fix the background image */
+            font-family: "Urbanist", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+        }
+
+        .checkmark {
+            list-style: none;
+            padding: 5px;
+        }
+
+        .list-item {
+            font-weight: bolder;
+            padding: 5px;
+        }
+
+        .checkmark li {
+            margin-bottom: 25px;
+        }
+
+        .subheading {
+            bottom: 30px;
+            font-size: 33px;
+        }
+
+        .subheading1 {
+            font-weight: bold;
+        }
+
+        .subheading2 {
+            font-weight: bold;
+            padding-bottom: 0px;
+        }
+
+        hr {
+            position: absolute;
+            width: 65%;
+            bottom: 319px;
+            border-color: black;
+        }
+
+        .section2 {
+            margin-bottom: 20px;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            body {
+                background-size: contain; /* Ensure the image fits within the viewport */
+                padding: 5px;
+            }
+
+            .domainname.mb-0 {
+                font-size: 24px; /* Adjust font size for smaller screens */
+            }
+
+            .subheading {
+                font-size: 28px; /* Adjust subheading size */
+            }
+
+            .section2 {
+                font-size: 16px; /* Adjust section text size */
+            }
+
+            hr {
+                width: 90%; /* Adjust HR width */
+                bottom: 200px; /* Adjust HR position */
+            }
+
+            .checkmark li {
+                margin-bottom: 15px; /* Adjust list item margin */
+            }
+
+            .list-item {
+                font-size: 16px; /* Adjust list item text size */
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                background-size: contain; /* Ensure the image fits within the viewport */
+                padding: 5px;
+            }
+
+            .domainname.mb-0 {
+                font-size: 20px; /* Adjust font size for smaller screens */
+            }
+
+            .subheading {
+                font-size: 24px; /* Adjust subheading size */
+            }
+
+            .section2 {
+                font-size: 14px; /* Adjust section text size */
+            }
+
+            hr {
+                width: 80%; /* Adjust HR width */
+                bottom: 120px;
+                color: black; /* Adjust HR position */
+            }
+
+            .checkmark li {
+                margin-bottom: 10px; /* Adjust list item margin */
+            }
+
+            .list-item {
+                font-size: 14px; /* Adjust list item text size */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="domainname mb-0" style="color: #FE5100;">swl.co.ke</h2>
+    <div>
+        <h2 class="subheading">
+            This Domain Has Been Successfully Registered!<br></h2>
+        <p>We are excited to announce that <span class="domainname">swl.co.ke</span> has been registered and is
+            currently under development.
+        </p>
+    </div>
+    <p class="section2"><span class="subheading1">What's Next?</span><br>
+        The owner of this domain is busy creating something awesome.<br>
+        Be sure to check back soon for updates!</p>
+
+    <hr>
+
+    <p class="section3">Brought to you by <span class="subheading2">CREATIVE K CLOUD</span><br>
+        As your trusted hosting partner, we are committed to providing reliable, secure, and user-friendly solutions.
+    </p>
+
+    <p class="subheading3">Why Choose CREATIVE K CLOUD?</p>
+    <ul class="checkmark">
+        <li><i class="fa-solid fa-check fa-sm" style="color: #FE5100;"></i><span class="list-item">Speed:</span> Our
+            servers are optimized for peak performance.</li>
+
+        <li><i class="fa-solid fa-check fa-sm" style="color: #FE5100;"></i><span class="list-item">Security:</span>
+            Top-notch measures to keep your data safe.</li>
+
+        <li><i class="fa-solid fa-check fa-sm" style="color: #FE5100;"></i><span class="list-item">Support:</span>
+            Expert Customer Support Team ready to assist you.</li>
+    </ul>
+
+    <p>For more information, visit the <a href="https://creativekigen.com/whmcs/index.php/" style="color: #FE5100">Creative K Cloud
+            website</a></p>
+
+    <script>
+        window.addEventListener('load', hostnamedisplay);
+        function hostnamedisplay() {
+            var x = location.hostname;
+            document.querySelectorAll('.domainname').forEach((domainName) => (domainName.innerHTML = x));
+        }
+    </script>
+
+</body>
+
+</html>
